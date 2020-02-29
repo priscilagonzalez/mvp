@@ -1,0 +1,36 @@
+{
+  "name": "hrr43-mvp",
+  "version": "1.0.0",
+  "description": "Daily Planner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon server",
+    "build": "webpack --config webpack.config.js",
+    "build:dev": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/priscilagonzalez/hrr43-mvp.git"
+  },
+  "author": "Priscila Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/priscilagonzalez/hrr43-mvp/issues"
+  },
+  "homepage": "https://github.com/priscilagonzalez/hrr43-mvp#readme",
+  "dependencies": {
+    "@babel/preset-react": "^7.8.3",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.2",
+    "react": "^16.13.0",
+    "react-dom": "^16.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.8.6",
+    "@babel/preset-env": "^7.8.6",
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
+  }
+}
