@@ -1,0 +1,237 @@
+* {
+  padding: 0;
+  margin: 0;
+ }
+
+ [data-reactroot]
+        {width: 100% !important; }
+
+#app {
+  display: grid !important;
+  grid-template-columns: 100% !important;
+}
+
+html, body, #app, #app>div {
+  width: 100% !important;
+}
+
+
+.container {
+  font-family: 'Roboto Condensed';
+  color: #344955;
+  height: 100% !important;
+  width: 100% !important;
+  margin: 0px !important;
+  display: grid;
+  grid-column: 100%;
+  grid-template-columns: 20% 80%;
+  grid-template-rows: 12% 88%;
+  padding: 0px !important;
+}
+
+.sidebar {
+  grid-column: 1 / 1;
+  grid-row: 1 / span 2;
+  background: #344955;
+  min-height: 100%;
+  border: solid 1px;
+  border-color: #33333359;
+}
+
+.main {
+  color: #344955 !important;
+  grid-column: 2 / span 2;
+  grid-row: 1 / span 2;
+  background: #3333330d !important;
+  width: 100% !important;
+  /* min-height: 100%; */
+  position: relative;
+  border: solid 1px;
+  border-color: #33333359;
+}
+
+.navigation {
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 100%;
+}
+
+/* .item {
+  padding: 1rem;
+  height: 2rem;
+  position: relative;
+} */
+
+a {
+  text-decoration: none !important;
+}
+
+.name {
+  color: #5bc987;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 15px;
+  padding-left: 0.75rem;;
+}
+
+.item:hover {
+  color:  yellowgreen !important;
+}
+
+/* .fa-home, .fa-calendar-plus, .fa-user-plus {
+  font-size: 1.50em;
+  color: #33333361;
+} */
+
+.calendar {
+  padding-left: 2em;
+  width: 80%;
+}
+
+.logo-area {
+  grid-column: 1 / span 1;
+  background: linear-gradient(-90deg, #84CF6A, #16C0B0);
+  border: solid 1px;
+  border-color: lightgray;
+}
+
+.title {
+  font-family: 'Londrina Sketch';
+  color: #344955;
+  font-size: 39px;
+  padding-left: 23px;
+  padding-top: 10px;
+  justify-content: center;
+}
+
+.item {
+  padding: 1rem;
+  height: 2rem;
+  position: relative;
+  color: #5bc987;
+  margin: 5px 15px;
+  opacity: .86;
+  border-radius: 4px;
+  display: grid;
+  grid-template-columns: 20% 80%;
+}
+
+.greeting {
+  padding-top: 2em;
+  padding-left: 2em;
+  padding-bottom: 2em;
+  width: 35%;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: #344955;
+
+}
+
+.fc-button-primary:disabled {
+  color: #fff;
+  background-color: #5bc987;
+  border-color: #5bc987;
+}
+
+.create-event {
+  max-width: 65%;
+  padding-left: 2rem;
+}
+
+.m-fadeOut {
+  max-width: 65%;
+  padding-left: 2rem;
+  visibility: hidden !important;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}
+
+.m-fadeIn {
+  max-width: 65%;
+  padding-left: 2rem;
+  visibility: visible !important;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+.val-invisible {
+  max-width: 65%;
+  padding-left: 2rem;
+  visibility: hidden !important;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}
+
+.val-visible {
+  max-width: 65%;
+  padding-left: 2rem;
+  visibility: visible !important;
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+#calendar {
+  padding-left: 2em;
+  width: 80%;
+}
+
+
+.create-user {
+  max-width: 65%;
+  padding-left: 2rem;
+}
+
+.react-datepicker__day--selected {
+ background: #5bc987 !important;
+
+}
+
+.react-datepicker__day--today {
+  font-weight: bold !important;
+
+}
+
+.react-datepicker__time-list-item--selected {
+  background: #5bc987 !important;
+
+}
+
+.react-datepicker-ignore-onclickoutside {
+  border-color: #5bc987 !important;
+}
+
+.dates {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.btn, .btn-primary {
+  margin-top: 2rem !important;
+  margin-left: 10rem !important;
+  background-color: #5bc987 !important;
+  border-color: #5bc987 !important;
+}
+
+.react-datepicker-wrapper {
+  width: 15px !important;
+}
+
+.react-datepicker__input-container {
+  font-size: 12px !important;
+  color: #b6c3ce !important;
+}
+
+.fa-edit {
+  color: green !important;
+
+}
+
+.fa-trash-alt {
+  color: red !important;
+}
+
+.userName {
+  text-transform: none !important;
+  color: #5bc987 !important;
+}

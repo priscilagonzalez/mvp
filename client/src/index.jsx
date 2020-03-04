@@ -1,17 +1,12 @@
-//import './styles.css';
+import './styles/styles.css';
 
 import React from 'react';
 import ReactDOM from 'react-dom';
-//import App from './components/App.jsx';
-
-// ReactDOM.render(
-//   <App videoId={videoId} />,
-//   document.getElementById('id'),
-// );
+import App from './components/App.jsx';
 
 
 ReactDOM.render(
-  "Hello World",
+  <App />,
   document.getElementById('app'),
 );
 

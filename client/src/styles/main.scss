@@ -1,0 +1,23 @@
+@import '~@fullcalendar/core/main.css';
+@import '~@fullcalendar/daygrid/main.css';
+@import '~@fullcalendar/timegrid/main.css';
+@import '~@fullcalendar/list/main.css';
+
+.fc-button-primary:disabled {
+  color: #333;
+  background-color: #bdc7c1;
+  border-color: #bdc7c1;
+}
+
+.fc-button-primary {
+  color: #333;
+  background-color: #5bc987;
+  border-color: #5bc987;
+}
+
+.fc-toolbar h2 {
+  font-size: 1.60em;
+  margin: 0;
+  color: #333
+}
+
